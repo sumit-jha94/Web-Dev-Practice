@@ -1,10 +1,7 @@
-// Converting Celsius to Fahrenheit
+// JavaScript Program to Convert Kilometers to Miles
 
-let celsius = parseFloat(prompt("Enter Celsius"));
+let a = parseFloat(prompt("Enter KM"));
 
-console.log(`Celsius is ${celsius}`)
+a = a/1.6;
 
-let fahrenheit = ((celsius*9)/5)+32;
-
-console.log(`${celsius} C is ${fahrenheit} in F`)
-
+console.log(`The KM Is ${a}` )
