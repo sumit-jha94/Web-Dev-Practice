@@ -1,8 +1,8 @@
-let prime = prompt("Enter The Number");
+let factors = prompt("Enter The Number");
 
-for (let i = 1; i <= prime; i++) {
+for (let i = 1; i <= factors; i++) {
     
-    if (prime % i == 0)
+    if (factors % i == 0)
     { console.log(i);
 }
 }
